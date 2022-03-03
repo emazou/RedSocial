@@ -19,6 +19,7 @@ html{
     grid-template-columns: repeat(3, 33%);
     border-bottom: 1px solid #ebe6e5;
     box-shadow: 0px 4px 8px rgba(70, 63, 20, 0.12);
+    padding-bottom: 5rem;
 }
     .header .header__user {
         display: flex;
@@ -49,7 +50,7 @@ html{
             background-size: cover;
         }
 .main{
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 .information { 
     width: 100%;
@@ -173,8 +174,8 @@ html{
     height: 50px;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 20px;
-    background-color: white;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    background-color: rgb(243, 232, 232);
+    box-shadow: 0px 4px 8px rgba(80, 0, 0, 0.30);
     justify-content: space-evenly;
 }
     .footer .item {
